@@ -1,0 +1,35 @@
+body{
+    height:100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr  auto;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(231,47,230,0.6227533249627977) 0%, rgba(73,29,182,1) 66%);
+   font-size: small 1;
+}
+
+header {
+
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("./Bilder/uefa-champions-league-204671998.jpg");
+
+}
+
+footer{
+    
+    background-image: url("./Bilder/uefa-champions-league-204671998.jpg");
+    color:black;
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+}
+a:hover
+{
+color: black;
+text-decoration: underline;
+}
